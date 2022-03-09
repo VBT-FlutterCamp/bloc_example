@@ -44,7 +44,7 @@ class HomeView extends StatelessWidget {
                                           .model
                                           ?.data?[index]
                                           .firstName ??
-                                      '1'),
+                                      ''),
                                   Text(context
                                           .read<HomeCubit>()
                                           .model
